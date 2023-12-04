@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+   
+}
+
+.caroussel{
+    position: relative;
+    background-image:url("../img/US-en-20230227-popsignuptwoweeks-perspective_alpha_website_large.jpg.png");
+    height: 100vh;  
+    background-repeat: no-repeat;     
+    z-index: -3;  
+}
+
+.shadow{
+    position: absolute;
+    z-index: -2 ; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 60%, rgba(0, 0, 0, 0.80) 100%), rgba(0, 0, 0, 0.40); 
+}
+
+
+.nav-bar{
+    display: flex;
+    width: 1500px;
+    padding: 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background: #FFF;
+}
+
+.new{
+    border-radius: 17px;
+    background: #E50914;
+    color: #FFF;
+    font-family: Helvetica Neue;
+    font-size: 12.8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.t1{
+    color: #333;
+
+    font-family: Helvetica Neue;
+    font-size: 17.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price{
+    
+    color: #333;
+    font-family: Helvetica Neue;
+    font-size: 20.8px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+.learn{
+    color: #0071EB;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    text-decoration: none;
+    }
+
+.svg{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.nav-bar2{
+   position: relative;
+   display: flex;
+   padding-right: 56px;
+
+    
+}
+
+.logo{
+    position: absolute;
+    padding-top: 28px;
+    padding-left: 56px; ;
+    
+    
+}
+
+.t2{
+    position: absolute;
+    top: 0;
+    right:0;
+    padding-top: 28px;
+    padding-right: 143.81px;
+    
+}
+
+.t3{
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 78px;
+    flex-shrink: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+.t4{
+    top: 0;
+    right: 0;
+    padding-top: 28px;
+    padding-right: 56px;
+    position: absolute;
+}
+
+.sign-in{
+    color: white;
+    background-color:red;
+    height: 35px;
+    width: 70px;
+       
+  }
+
+
+.t5{
+  position: absolute;
+  top: 0;
+  left: 0;  
+ background-color: red;
+}
+
+
+.t6{
+   background-color: aqua;
+}
+
+ .t7{
+  
+ }   
+
+
+    
+
+
+
+
+
+

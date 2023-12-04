@@ -1,0 +1,585 @@
+body{
+  margin: 0;
+}
+
+.slide1{
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../img/US-en-20230227-popsignuptwoweeks-perspective_alpha_website_large.jpg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    z-index: -2;
+}
+
+.gradien{
+    position: absolute;
+    z-index: -1; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 60%, rgba(0, 0, 0, 0.80) 100%), rgba(0, 0, 0, 0.40); 
+}
+
+.navbar{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 56px;
+}
+
+
+
+.new{
+    color: white;
+    background-color: red;
+    text-decoration: solid;
+    border-radius: 17px;
+}
+
+.learn-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0071EB;
+    text-decoration: none;
+}
+
+.svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar2{
+    align-items: center;
+    display: flex;
+     padding: 30px;
+    justify-content: space-between;
+}
+
+.frame{
+    display: flex;
+    align-items: center;
+    width: 167px;
+}
+
+.navbar2-item{
+    display: flex;
+    gap: 40px;
+}
+
+.btn1{
+    display: inline-flex;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.button-lang{
+    background-color: black;
+    color: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-color: white;
+    padding: 6px 16.813px 7px 17px;
+    height: 50px;
+    width: 100px;
+}
+
+.btn2{
+    align-items: center;
+    display: inline-flex;   
+}
+
+.button-sign{
+    background-color: red;
+    border: 0;
+    color: white;
+    height: 50px; 
+    width: 100px;
+}
+
+.content{
+    text-align: center;
+ 
+}
+
+.content-unl{
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 62px;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom:10px;  
+}
+
+.content-wat{
+    color: white;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;   
+}
+
+.content-rea{
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.form{
+    display: inline-flex;
+    gap: 2px;
+}
+
+.email-input{
+    border: 0;
+    border-radius: 1px;
+     width: 500px;
+    height: 50px;   
+}
+
+.btn-get{
+    font-size: 16px;
+    background-color: #E50914;
+    color: white;
+    border: 0;
+    width: 130px ;
+    height: 52px;
+}
+
+.slide2{
+    height: 100vh;
+}
+
+.slide2-content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 45vh;
+    gap: 200px;
+}
+
+.slide2-description1{
+    color: white;
+}
+
+.slide2-img1{
+  height: 250px;
+}
+
+.tv{
+    height: 250px;
+}
+
+
+.slide2-content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 55vh;
+    gap: 200px;
+}
+
+.slide2-description2{
+    color: white;
+    
+}
+
+.sld2-txt{
+    height: 280px;
+}
+
+.slide2-img2{
+  height: 280px;
+}
+
+.device{
+    height: 280px;
+}
+
+.slide3{
+    height: 100vh;
+}
+
+.slide3-content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 50vh;
+    gap: 200px;
+}
+
+.slide3-description1{
+    color: white;
+}
+
+.slide3-img1{
+  height: 245px;
+}
+.kids{
+    height: 245px;
+}
+
+.slide3-content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 55vh;
+    gap: 200px;
+}
+
+.slide3-img2{
+    position: relative;
+    height: 230px;
+}
+
+.mobile{
+    height: 230px;
+}
+
+.border{
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-style: ridge;
+    border-color:#363533;
+    border-radius: 10px;
+    border-radius: 12px;
+    margin-top: 150px;
+    width: 300px;
+    gap: 55px;
+    height: -webkit-fill-available;
+}
+
+.boxshot{
+    display: flex;
+    height: 70px;
+}
+
+.stranger{
+    display: flex;
+    font-size: 12px;
+}
+
+.download{
+    font-size: 8px;
+    color: #0071EB;
+    height: 100px;;
+}
+
+.slide3-description2{
+    color: white;
+    height: 160px;
+}
+
+.sld3-txt{
+    height: 242px;
+}
+
+.slide4{
+   
+    background-color: black;
+    color: #737373;
+    height: 50vh;
+
+
+}
+
+.ul-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+ul{
+    margin: 0;
+    list-style-type: none;
+    line-height: normal;
+    height: 15px;
+    font-weight: 300px;
+    flex-shrink: 0;
+}
+
+li{
+    flex-direction: column;
+    
+}
+
+
+@media  screen and (max-width: 350px) {
+    .slide1{
+        height:initial;
+    }
+
+    .slide2{
+        height: initial;
+    }
+
+    .slide3{
+        height: initial;
+    }
+
+    .slide4{
+        height: initial;
+
+    }
+    .navbar{
+        font-size: 10px;
+    }
+
+    svg{
+        height: 10px;
+    }
+
+    .navbar2{
+        padding: 5px;
+        gap: 0px;
+    }
+
+    .frame>img{
+       height: 27px;
+    }
+    .navbar2-item{
+        gap: 5px;
+    }
+    .button-lang{
+        height: 30px;
+        width: 80px;
+    }
+
+    .button-sign{
+        height: 30px;
+        width: 80px;
+    }
+
+    .content-unl{
+        font-size: 27px;
+        line-height: 22px;
+    }
+
+    .content-wat{
+        font-size: 15px;
+        line-height:10px ;
+    }
+
+    .content-rea{
+        font-size: xx-small;
+        font-weight: normal;
+    }
+
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px; 
+    }
+
+    .form>input{
+        width: 99%;
+        height: 40px;  
+    }
+
+    .btn-get{
+        height: 40px;  
+    }
+
+    .slide2-content1{
+
+        flex-wrap: wrap;
+        height: initial;
+        gap: 20px;
+
+    }
+
+    .slide2-content2{
+        flex-wrap: wrap-reverse;
+        height: initial;
+        gap: 120px;
+        
+    }
+
+    .slide2-description2{
+        height: 100px;
+    }
+
+    .sld2-txt{
+        height: 150px;
+    }
+
+    .slide2-img2{
+        height: 280px;
+    }
+
+    .device{
+        height: 200px;
+    }
+    .slide3-content1{
+        flex-wrap: wrap;
+        height: initial;
+        gap: 20px;
+    }
+
+    .slide3-content2{
+        flex-wrap: wrap-reverse;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .slide2-content1{
+        gap: 80px;
+
+    }
+
+    .slide2-content2{
+        gap: 80px;
+    }
+    
+    .slide3-content1{
+        gap: 80px;
+    }
+
+    .slide3-content2{
+        gap: 80px;
+    }
+}
+
+
+@media screen and (max-width:652px) {
+
+    .email-input{
+        width: 480px;
+    }
+    .slide2-content1{
+        gap: 70px;
+
+    }
+
+    .slide2-content2{
+        gap: 70px;
+    }
+    
+    .slide3-content1{
+        gap: 70px;
+    }
+
+    .slide3-content2{
+        gap: 70px;
+    }
+
+    .slide2-description2{
+        height: 190px;
+    }
+    
+}
+
+
+@media screen and (max-width:632px) {
+    .form>input{
+        width: 600px;
+    }
+
+    .btn-get{
+        width: 230px;
+    }
+
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .slide2{
+        height: initial;
+    }
+
+    .slide2-content1{
+        flex-wrap: wrap;
+        height: initial;
+
+    }
+    .slide2-content2{
+        flex-wrap: wrap-reverse;
+        height: initial;
+    }
+ 
+
+    .slide3-content1{
+        flex-wrap: wrap;
+        height: initial;
+    }
+
+    .slide3-content2{
+        flex-wrap: wrap-reverse;
+        height: initial;
+    }
+}
+
+@media screen and (max-width: 621px) {
+    .form>input{
+        width: 98%;
+    }   
+}
+
+@media screen and (max-width:500px) {
+    .navbar2{
+        padding: 5px;
+        gap: 9px;
+    }
+
+    .frame>img{
+       height: 40px;
+    }
+    .navbar2-item{
+        gap: 20px;
+    }
+    .button-lang{
+        height: 40px;
+        width: 100px;
+    }
+
+    .button-sign{
+        height: 40px;
+        width: 100px;
+    }   
+}
+
+@media screen and (max-width:396px) {
+
+    .button-lang{
+        width: 90px;
+    }
+    .button-sign{
+        width: 90px;
+    }
+
+    
+    
+}

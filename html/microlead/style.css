@@ -1,0 +1,21 @@
+.body-content{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.form{
+    padding: 160px;
+    
+}
+.f1{
+    background-color: bisque;
+    width:-500%;
+}
+
+.roundImg{
+  
+  
+    width:200px;
+    border-radius:1000%; 
+}
